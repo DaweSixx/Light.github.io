@@ -1,0 +1,408 @@
+.main {
+  flex: 1 1 auto;
+}
+.main_down {
+  background-color: white;
+}
+
+.find {
+}
+/* =============UP============ */
+
+.find_up {
+  padding: 5.5% 0 0 0;
+}
+.find_title {
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 60px;
+
+  letter-spacing: -0.6px;
+
+  color: #706458;
+  margin-bottom: 2.7rem;
+}
+.find_main {
+  display: flex;
+  overflow: hidden;
+}
+.find_main__text {
+  width: 20%;
+  padding: 0 20px 0 0;
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 1.56rem;
+  z-index: 5;
+  background-color: #f3eee8;
+
+  color: rgba(112, 100, 88, 0.9);
+}
+/* =============Slider============ */
+
+.find_main__slider {
+  cursor: default;
+  user-select: none;
+  width: 80%;
+}
+
+.find__slider-line {
+  display: flex;
+  min-width: 258%;
+  position: relative;
+  right: 0;
+  transition: all ease 1s;
+}
+
+.find_slider-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+  margin-right: 20px;
+  height: 19.5rem;
+  position: relative;
+}
+.find_slider-item__text {
+  position: absolute;
+  top: 0;
+  right: 88px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(112, 100, 88, 0.9);
+}
+.find_slider-item__title {
+  font-family: "Merriweather";
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: -0.6px;
+  color: #a06056;
+  position: relative;
+  right: 7px;
+  text-shadow: rgb(255, 255, 181) 2px 2px 2px;
+}
+.one {
+  background: url(../img/Picture_Bedroom.jpg) no-repeat;
+}
+.two {
+  background: url(../img/Picture_LivingRoom.jpg) no-repeat;
+  span {
+    display: block;
+    width: 200px;
+    margin-left: 135px;
+    text-align: center;
+  }
+}
+.three {
+  background: url(../img/Picture_Bedroom.jpg) no-repeat;
+}
+.four {
+  background: url(../img/Picture_LivingRoom.jpg) no-repeat;
+  span {
+    display: block;
+    width: 200px;
+    margin-left: 135px;
+    text-align: center;
+  }
+}
+.five {
+  background: url(../img/Picture_Bedroom.jpg) no-repeat;
+}
+
+/* =============Up Footer============ */
+
+.find_footer {
+  padding: 50px 0 0 5px;
+  display: flex;
+}
+.find_footer__numbers {
+  margin: 0 150px 0 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(112, 100, 88, 0.9);
+  opacity: 0.5;
+}
+.find_footer__button {
+  background-color: transparent;
+
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+
+  letter-spacing: 0.3px;
+
+  color: #a06056;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    font-size: 21px;
+    transition: all ease 0.1s;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+
+  &::after {
+    content: "";
+    width: 15px;
+    height: 20px;
+    background: url(../img/icons/Down.svg) center no-repeat;
+    rotate: 270deg;
+    margin: 0 0 0 10px;
+  }
+}
+
+/* ============================= */
+/* =============DOWN============ */
+/* ============================= */
+
+.find_down {
+  padding: 130px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+.find_down__subtitle {
+  width: 40%;
+
+  h2 {
+    font-family: "Merriweather";
+    font-weight: 300;
+    font-size: 3.43rem;
+    line-height: 3.75rem;
+
+    letter-spacing: -0.6px;
+
+    color: #706458;
+    margin-bottom: 39px;
+  }
+  a {
+    display: inline-flex;
+    align-items: center;
+
+    font-family: "Karla";
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+
+    letter-spacing: 0.3px;
+
+    color: #a06056;
+    &:after {
+      content: "";
+      width: 10px;
+      height: 10px;
+      background: url(../img/icons/Down.svg) center no-repeat;
+      rotate: 270deg;
+      margin: 2px 0 0 3px;
+    }
+  }
+}
+.find_down__cards {
+  padding: 1.37rem 0 0 0;
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cards_item {
+}
+.cards_item__title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+
+  letter-spacing: -0.2px;
+
+  color: #a06056;
+  margin-bottom: 12px;
+}
+.cards_item__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(112, 100, 88, 0.9);
+  width: 257px;
+  margin-bottom: 29px;
+}
+
+/* =============SLider==Email======== */
+
+.slider {
+  background-color: white;
+  padding: 70px 0 22px 0;
+}
+.slider__mail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.slider__mail_left {
+}
+.slider__left_subtitle {
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 40px;
+
+  letter-spacing: -0.3px;
+
+  color: #121212;
+  margin-bottom: 15px;
+}
+.slider__left_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(112, 100, 88, 0.9);
+  margin-bottom: 11px;
+}
+.slider__left_button {
+  display: inline-flex;
+  align-items: center;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 25px;
+
+  letter-spacing: 0.3px;
+
+  color: #a06056;
+  &:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: url(../img/icons/Down.svg) center no-repeat;
+    rotate: 270deg;
+    margin: 1.5px 0 0 3px;
+  }
+}
+.slider__mail_right {
+  align-self: center;
+}
+.slider__right_input {
+  font-family: "Varta";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: rgba(112, 100, 88, 0.9);
+  width: 296px;
+  padding: 12px 15px;
+  background: rgba(243, 238, 232, 0.3);
+  border-radius: 1px;
+  margin: 0 16px 0 0;
+}
+.slider__right_button {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 25px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.3px;
+  padding: 12px 29px;
+  color: #ffffff;
+  background: #534b42;
+  border-radius: 1px;
+  border: 1px solid #534b42;
+
+  transition: all ease 0.3s;
+  &:hover {
+    border: 1px solid #534b42;
+
+    background: #fff;
+    color: #534b42;
+  }
+}
+
+/* ----------------slider Main */
+
+.slider__main {
+  margin-bottom: 42px;
+}
+.slider__main_line {
+  display: flex;
+  transform: translate(0);
+  transition: all ease 0.8s;
+}
+.slider__main_item {
+  width: 31.25rem;
+  height: 34.3rem;
+  img {
+    margin-right: 30px;
+    height: 100%;
+  }
+}
+
+/* =========================last block */
+.slider__down {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.slider__down_subtitle {
+  font-family: "Merriweather";
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 40px;
+
+  letter-spacing: -0.3px;
+
+  color: #534b42;
+}
+.slider__down_text {
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 1.56rem;
+
+  color: #706458;
+  max-width: 21.8rem;
+}
+.slider__down_last {
+  margin: 0px 74px 0 113px;
+}
+.slider__down_button {
+  display: flex;
+}
+.button-left {
+  background: url(../img/icons/Down.svg) center no-repeat;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a06056;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  transition: all ease 0.3s;
+}
+.button-right {
+  background: url(../img/icons/Down.svg) center no-repeat;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a06056;
+  border-radius: 50%;
+  margin-left: 11px;
+  transform: rotate(270deg);
+  transition: all ease 0.3s;
+}
+
+.ghost_one {
+  background: url(../img/icons/down_gray.svg) center no-repeat;
+  border: 2px solid #808080;
+  transform: rotate(180deg);
+  cursor: default;
+}
+
+.ghost_two {
+  background: url(../img/icons/down_gray.svg) center no-repeat;
+  border: 2px solid #808080;
+  transform: rotate(0deg);
+  cursor: default;
+}

@@ -1,0 +1,68 @@
+.header {
+  border: 1px solid #000;
+  background-color: aqua;
+  display: flex;
+  height: 100vh;
+}
+
+.header_left {
+  background-color: yellow;
+  height: 100%;
+  width: 50%;
+  padding: 4% 10%;
+}
+
+.header_left-container {
+  max-width: 470px;
+  border: 1px solid #000;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  border: 1px solid #000;
+  max-width: 470px;
+  margin-bottom: 125px;
+}
+
+.menu_logo {
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 25px;
+  letter-spacing: 2px;
+  color: #a06056;
+  margin-right: 30px;
+}
+
+.menu_items {
+  border: 1px solid #000;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Varta";
+  font-weight: 400;
+  font-size: 18px;
+  color: #706458;
+}
+
+.menu_item {
+  margin-right: 23px;
+}
+
+.home {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a06056;
+}
+
+.header-right {
+  background-color: #a06056;
+  height: 100%;
+  width: 50%;
+}
+.header-right img {
+  width: 50%;
+}/*# sourceMappingURL=header.css.map */

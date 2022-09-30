@@ -1,0 +1,119 @@
+.footer {
+  background-color: #f3eee8;
+
+  .container {
+  }
+}
+
+/* ============footerUp========== */
+
+.footer_up {
+  display: flex;
+  justify-content: space-between;
+  padding: 68px 0 0 0;
+  margin-bottom: 2.77rem;
+}
+.footer_up__logo {
+  a {
+    color: #534b42;
+  }
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+.footer_up__center {
+  display: flex;
+  justify-content: space-between;
+  max-width: 950px;
+  flex-grow: 1;
+  padding: 0 5.72rem 0 3.55rem;
+}
+.footer_up__items {
+  &:nth-child(2) {
+    // padding-right: 36px;
+  }
+}
+.footer_up__subtitle {
+  font-weight: 600;
+  font-size: 1.38rem;
+  line-height: 1.66rem;
+  letter-spacing: -0.2px;
+
+  color: #534b42;
+  margin-bottom: 25px;
+}
+.footer_up__item {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.38rem;
+  color: #706458;
+  margin-bottom: 0.55rem;
+}
+.footer_up__res {
+  max-width: 235px;
+}
+.footer_up__res-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.2px;
+
+  color: #534b42;
+  margin-bottom: 25px;
+}
+.footer_up__res-picture {
+  margin-bottom: 15px;
+}
+.footer_up__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #706458;
+  margin-bottom: 15px;
+}
+.slider__left_button {
+}
+.footer_up__button {
+}
+
+/* ============footerDown========== */
+.footer_down {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.55rem;
+}
+.footer_down__copyright {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: rgba(112, 100, 88, 0.7);
+  padding: 50px 0 0 0;
+}
+.footer_down__icons {
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+  padding: 0 6.66rem 0 0;
+  height: 32px;
+  a {
+    margin: 0 12.5px;
+    img {
+    }
+  }
+}
+.footer_down__privacy {
+  padding: 50px 0 0 0;
+
+  span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(112, 100, 88, 0.7);
+    &:nth-child(2) {
+      margin: 0 27px;
+    }
+  }
+}
